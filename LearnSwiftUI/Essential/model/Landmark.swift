@@ -27,6 +27,8 @@ struct Landmark: Hashable, Codable, Identifiable {
     
     var isFavorite: Bool
     
+    var isFeatured: Bool
+    
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: coordinates.latitude,
                                longitude: coordinates.longitude)
