@@ -38,6 +38,5 @@ struct LandmarkList_Previews: PreviewProvider {
         NavigationView {
             LandmarkList().environmentObject(UserData())
         }
-        
     }
 }

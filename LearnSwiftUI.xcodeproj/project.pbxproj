@@ -33,7 +33,6 @@
 		A961A3332484E30800228E26 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A961A3272484E30800228E26 /* silversalmoncreek.jpg */; };
 		A961A3342484E30800228E26 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A961A3282484E30800228E26 /* twinlake.jpg */; };
 		A961A3362484E70E00228E26 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961A3352484E70E00228E26 /* UserData.swift */; };
-		A961A33A2484EF3800228E26 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961A3392484EF3800228E26 /* Welcome.swift */; };
 		A961A33D2484F4C200228E26 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961A33C2484F4C200228E26 /* Badge.swift */; };
 		A961A33F2484F50700228E26 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961A33E2484F50700228E26 /* HexagonParameters.swift */; };
 		A961A3412484FBB500228E26 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A961A3402484FBB500228E26 /* BadgeBackground.swift */; };
@@ -78,7 +77,6 @@
 		A961A3272484E30800228E26 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		A961A3282484E30800228E26 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
 		A961A3352484E70E00228E26 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		A961A3392484EF3800228E26 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		A961A33C2484F4C200228E26 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		A961A33E2484F50700228E26 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		A961A3402484FBB500228E26 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 		A961A2DA2484A5EC00228E26 /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A961A3392484EF3800228E26 /* Welcome.swift */,
 				A961A3522485178A00228E26 /* AppDesignAndLayout */,
 				A961A33B2484F46000228E26 /* DrawingAndAnimation */,
 				A961A3372484EEF900228E26 /* Essential */,
@@ -307,7 +304,6 @@
 				A961A2DC2484A5EC00228E26 /* AppDelegate.swift in Sources */,
 				A961A33D2484F4C200228E26 /* Badge.swift in Sources */,
 				A961A356248517F400228E26 /* CategoryHome.swift in Sources */,
-				A961A33A2484EF3800228E26 /* Welcome.swift in Sources */,
 				A961A35824851A5C00228E26 /* CategoryRow.swift in Sources */,
 				A961A34B24850BF200228E26 /* HikeGraph.swift in Sources */,
 				A961A2F32484AB2D00228E26 /* CircleImage.swift in Sources */,
