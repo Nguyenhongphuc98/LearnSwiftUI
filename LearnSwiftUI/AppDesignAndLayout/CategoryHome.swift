@@ -39,11 +39,10 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                
-                FeaturedLandmarks(landmarks: featured)
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(features.map({
+                    FeatureCard(landmark: $0)
+                }))
+                    .aspectRatio(3 / 2.0, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(categories.keys.sorted(), id: \.self) { key in
@@ -60,7 +59,7 @@ struct CategoryHome: View {
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
-                ProfileHost().environmentObject(self.userData)
+                ProfileHost().environmentObject(UserData())
             }
         }
     }
