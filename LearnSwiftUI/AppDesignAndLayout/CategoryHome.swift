@@ -12,6 +12,8 @@ struct CategoryHome: View {
     
     @State var showingProfile = false
     
+    @EnvironmentObject var userData: UserData
+    
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarkData,
@@ -58,7 +60,7 @@ struct CategoryHome: View {
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
-                Text("user profile")
+                ProfileHost().environmentObject(self.userData)
             }
         }
     }
